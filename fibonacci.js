@@ -19,7 +19,7 @@ let arr = [0,1];
 
     }
     
-    return arr[fibo(n-1)+fibo(n-2)];
+    return fibo(n-1)+fibo(n-2);
 
 }
 console.log(fibo(3));
